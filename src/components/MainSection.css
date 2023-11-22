@@ -1,0 +1,70 @@
+/* .main-area{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.basic{
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.standard{
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.premium{
+    
+    border: 2px solid white;
+    border-radius: 12px;
+} */
+
+
+
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px; /* Adjust margin as needed for spacing */
+}
+  .basic,
+  .standard,
+  .premium {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ddd; /* Optional: Add border for separation */
+    padding: 10px; /* Optional: Add padding for inner content */
+    margin: 12px;
+}
+  
+  .basic h2,
+  .standard h2,
+  .premium h2 {
+    margin-bottom: 10px;
+  }
+  
+  .below {
+ /* Align the content at the bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: auto; /* Align the button at the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  } 
+  .enterprise,
+.free-star {
+  display: flex;
+  width: 48%; /* Set the width to 48% to leave some gap */
+  height: 300px;
+  border: 3px solid grey;
+  margin: 12px;
+}
+
+
+  
